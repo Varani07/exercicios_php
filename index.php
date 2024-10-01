@@ -48,7 +48,7 @@ and open the template in the editor.
             <input type="submit" name="btn7" value="Enviar"/>
             
             <h2>8. Dê um valor para saber quantos litros serão necessários para percorrer a distância escolhida e quanto será gasto: </h2><br/>
-            <h2>Preço por litro (R$): </h2><input type="number" name="numLitro" value=""/>
+            <h2>Preço por litro (R$): </h2><input type="text" name="txtLitro" value=""/>
             <h2>Km/L do carro: </h2><input type="number" name="numKmL" value=""/>
             <h2>Distância a percorrer (km): </h2><input type="number" name="numDistancia" value=""/>
             <input type="submit" name="btn8" value="Enviar"/>

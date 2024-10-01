@@ -96,7 +96,7 @@
                                 
                             }else{
                                 if(isset($_POST['btn8'])){
-                                    $valor_por_litro = $_POST['numLitro'];
+                                    $valor_por_litro = $_POST['txtLitro'];
                                     $kilometro_por_litro = $_POST['numKmL'];
                                     $distancia = $_POST['numDistancia'];
 
