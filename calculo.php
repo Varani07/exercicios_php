@@ -99,13 +99,14 @@
                                     $valor_por_litro = $_POST['txtLitro'];
                                     $kilometro_por_litro = $_POST['numKmL'];
                                     $distancia = $_POST['numDistancia'];
+                                    
 
                                     if(is_numeric($valor_por_litro) && is_numeric($kilometro_por_litro) && is_numeric($distancia)){
                                         $litros_necessarios = $distancia / $kilometro_por_litro;
                                         $quantia_gasta = $valor_por_litro * $litros_necessarios;
                                         
                                         echo "<h2>Serão necessários $litros_necessarios Litros para percorrer esta distância.</h2><br/>";
-                                        echo "<h2>Será gasto R$$quantia_gasta.</h2><br/>";
+                                        echo "<h2>Será gasto: R$$quantia_gasta</h2><br/>";
                                     }else{
                                         echo '<h2>Digite um número!</h2>';
                                     }
